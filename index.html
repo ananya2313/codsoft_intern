@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav><div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Mohit Kumar</span> from Delhi</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about me  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class=sub-title>About Me</h1>
+                    <p>
+                        I'm Mohit Kumar, a dedicated web developer specializing in HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and React. Currently pursuing my B.Tech in Computer Science from NIET, Greater Noida, I have hands-on experience in creating numerous successful web projects. Alongside my development skills, I have a keen interest in the field of cyber security and have actively explored system vulnerabilities. With a strong focus on innovation and security, I strive to deliver high-quality, reliable, and user-friendly web solutions to meet the needs of my clients.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- skills experience and educatinon tab  -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                        <li>
+                            <span>FRONTED </span><br>HTML,CSS,JAVASCRIPT
+                        </li>
+                        <li>
+                            <span>BACKEND</span><br>NODE.JS,EXPRESS.JS,MONGODB,PHP
+                        </li>
+                        <li>
+                            <span>CYBER SECURITY</span><br>KALI LINUX , BURPSUIT , WIRESHARK
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li>
+                            <span>ANZ</span><br>COMPLETED 4 HR TRAINING IN BACKEND ENGINEERING
+                        </li>
+                       
+                        <li>
+                            <span>BHARATINTERN</span><br>DESIGN TWO FULL STACK PROJECTS
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li>
+                            <span>BTECH IN COMPUTER SCIENCE(2022-2026)</span><br>NOIDA INSTITUE OF ENGINEERING AND TECHNOLOGY
+                        </li>
+                        <li>
+                            <span>SENIOR SECONDARY</span><br>CBSE
+                        </li>
+                        
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- servies -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> We specialize in creating stunning and responsive websites using the latest web technologies. From simple landing pages to complex web applications, we deliver high-quality solutions tailored to your specific requirements.  </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Backend Development</h2>
+                    <p> Our experienced backend developers ensure the smooth functioning of your web applications. We build robust and scalable server-side architectures using the power of Node.js and Express.js, providing efficient data management and processing.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Maintenance and Support</h2>
+                    <p>We offer comprehensive maintenance and support services to ensure your website or application operates flawlessly. Our team is always available to handle updates, bug fixes, and technical assistance, allowing you to focus on your core business.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------portfolio------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci at ipsa rem beatae! Accusantium earum magnam suscipit fugiat perferendis?</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>POrtfolio</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci at ipsa rem beatae! Accusantium earum magnam suscipit fugiat perferendis?</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>WE chat</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci at ipsa rem beatae! Accusantium earum magnam suscipit fugiat perferendis?</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+    <!-- ---------coontaact=----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>234567890</p>
+                    <!-- social media links adding -->
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your NAME" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message"  rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> <i class="fas fa-heart"></i> consectetur adipisicing elit. Aut, magnam!</p>
+        </div>
+    </div>
+
+    
+    <script>
+
+function opentab(tabname) {
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  for (var i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active-link");
+  }
+
+  for (var i = 0; i < tabcontents.length; i++) {
+    tabcontents[i].classList.remove("active-tab");
+  }
+
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sedemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwEaS3yzZx6MzxGVuZSUZHc8PdPglz0Rx8GPx-gzRG335lwKgsxZcFAngl7iHIw-unkwA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
